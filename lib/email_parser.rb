@@ -13,8 +13,7 @@ end
 
 
 def parse(emails)
-new_list =   @emails.split(/,\s|\s/).uniq
-new_list
+
 end
 
 
