@@ -13,6 +13,8 @@ end
 
 
 def parse(emails)
+  parsed_emails = emails.split(", ").uniq
+  parsed emails 
 
 end
 
