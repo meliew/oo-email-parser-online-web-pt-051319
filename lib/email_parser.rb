@@ -12,7 +12,7 @@ def initialize(emails)
 end
 
 
-def self.parse(emails)
+def parse(emails)
 
   emails_array = @emails.split(/[, ]/).uniq
   emails_array
