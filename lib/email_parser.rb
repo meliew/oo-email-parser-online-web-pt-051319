@@ -14,7 +14,7 @@ end
 
 def self.parse(emails)
 
-  emails.split("," " ")
+  emails_array = emails.split([, ])
 
 
 end
