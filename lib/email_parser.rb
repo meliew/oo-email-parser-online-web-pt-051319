@@ -13,7 +13,7 @@ end
 
 
 def parse
-  parsed_emails = @emails.split([, \s]).uniq
+  parsed_emails = @emails.split(/[, \s]/).uniq
   parsed_emails
 
 end
