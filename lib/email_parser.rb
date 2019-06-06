@@ -15,7 +15,7 @@ end
 
 
 def self.parse(string_of_emails)
-  
+
   string_of_emails.split(",", " ")
 
 
