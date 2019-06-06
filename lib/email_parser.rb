@@ -14,7 +14,7 @@ end
 
 def parse
   parsed_emails = @emails.split(", ").uniq
-  parsed emails 
+  parsed_emails
 
 end
 
