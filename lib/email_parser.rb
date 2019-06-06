@@ -6,13 +6,16 @@
 class EmailParser
 
 
-def initialize(string_of_emails)
+def initialize(emails)
+
+  @emails = emails
 
 
 end
 
 
 def self.parse(string_of_emails)
+  
   string_of_emails.split(",", " ")
 
 
