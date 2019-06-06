@@ -14,8 +14,8 @@ end
 
 def self.parse(emails)
 
-  emails_array = @emails.split(/[, ]/)
-  emails_array 
+  emails_array = @emails.split(/[, ]/).uniq
+  emails_array
 
 
 end
